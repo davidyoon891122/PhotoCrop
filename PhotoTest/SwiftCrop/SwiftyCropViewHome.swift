@@ -1,5 +1,5 @@
 //
-//  Home.swift
+//  SwiftyCropViewHome.swift
 //  PhotoTest
 //
 //  Created by Jiwon Yoon on 4/1/25.
@@ -9,7 +9,7 @@ import SwiftUI
 import PhotosUI
 import SwiftyCrop
 
-struct Home: View {
+struct SwiftyCropViewHome: View {
 
     @State var selectedItems: [PhotosPickerItem] = []
     @State var displayedImage: UIImage?
@@ -77,5 +77,5 @@ struct Home: View {
 }
 
 #Preview {
-    Home()
+    SwiftyCropViewHome()
 }
